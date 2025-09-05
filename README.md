@@ -15,7 +15,7 @@ You can also choose stats for each individual body.
 
 <img width="369" height="117" alt="image" src="https://github.com/user-attachments/assets/22b8072b-dc65-4304-9af1-612c21b96ab6" />
 
-Initial velocity makes sure objects go straight into eachother, basically starting with an orbit.
+Initial velocity makes sure objects don't go straight into eachother, basically starting with an orbit.
 Mass is mass.
 
 Here is an example scene set up in SampleScene
