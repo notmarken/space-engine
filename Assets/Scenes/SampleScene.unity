@@ -275,6 +275,16 @@ PrefabInstance:
       objectReference: {fileID: 161501070}
     - target: {fileID: 2679022802723202797, guid: 9738a0e3d22371843bf1a3c4485bd5c1,
         type: 3}
+      propertyPath: timeStep
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679022802723202797, guid: 9738a0e3d22371843bf1a3c4485bd5c1,
+        type: 3}
+      propertyPath: gravitationalConstant
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679022802723202797, guid: 9738a0e3d22371843bf1a3c4485bd5c1,
+        type: 3}
       propertyPath: bodies.Array.data[0].body
       value: 
       objectReference: {fileID: 147350712}

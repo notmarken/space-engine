@@ -1,9 +1,20 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Universe : MonoBehaviour
 {
-    public CelestialBody[] bodies;
-    public float gravitationalConstant = 1f;
+    private List<CelestialBody> bodies = new List<CelestialBody>();
+    private float gravitationalConstant = 1f;
+
+    private void Awake()
+    {
+        gravitationalConstant = GetComponent<OrbitPredictor>().gravitationalConstant;
+
+        foreach (var body in GetComponent<OrbitPredictor>().bodies)
+        {
+            bodies.Add(body.body);
+        }
+    }
 
     void FixedUpdate()
     {

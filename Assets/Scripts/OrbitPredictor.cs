@@ -8,7 +8,7 @@ public class OrbitPredictor : MonoBehaviour
     public class PredictableBody
     {
         public CelestialBody body;
-        public CelestialBody relativeTo; // Optional: show orbit relative to this body (e.g., planet)
+        public CelestialBody relativeTo;
     }
 
     public PredictableBody[] bodies;
