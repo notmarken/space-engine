@@ -1,4 +1,4 @@
-This project simulates celestial objects.
+This project simulates celestial objects. NOTE: HEAVILY INSPIRED BY SEBASTIAN LAGUE https://www.youtube.com/watch?v=7axImc1sxa0&t 
 
 Formula:
 
